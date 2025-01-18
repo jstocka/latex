@@ -1,0 +1,603 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.3 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{none/global//global/global/global}
+    \entry{simongame}{online}{}{}
+      \name{author}{1}{}{%
+        {{hash=f7f22c980cf69ee6dbdc281ed73ab4e2}{%
+           family={{Shritwod}},
+           familyi={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{f7f22c980cf69ee6dbdc281ed73ab4e2}
+      \strng{fullhash}{f7f22c980cf69ee6dbdc281ed73ab4e2}
+      \strng{fullhashraw}{f7f22c980cf69ee6dbdc281ed73ab4e2}
+      \strng{bibnamehash}{f7f22c980cf69ee6dbdc281ed73ab4e2}
+      \strng{authorbibnamehash}{f7f22c980cf69ee6dbdc281ed73ab4e2}
+      \strng{authornamehash}{f7f22c980cf69ee6dbdc281ed73ab4e2}
+      \strng{authorfullhash}{f7f22c980cf69ee6dbdc281ed73ab4e2}
+      \strng{authorfullhashraw}{f7f22c980cf69ee6dbdc281ed73ab4e2}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Electronic Simon game, circa 1978}
+      \field{urlday}{16}
+      \field{urlmonth}{1}
+      \field{urlyear}{2025}
+      \field{year}{2018}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb en.wikipedia.org/wiki/Simon_(game)#/media/File:Simon_Electronic_Game.jpg
+      \endverb
+      \verb{url}
+      \verb en.wikipedia.org/wiki/Simon_(game)#/media/File:Simon_Electronic_Game.jpg
+      \endverb
+    \endentry
+    \entry{acclaimed_videogames_parappa}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=389904ee34ee05b06e5faaedcf29f3e8}{%
+           family={{Acclaimed Video Games}},
+           familyi={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{389904ee34ee05b06e5faaedcf29f3e8}
+      \strng{fullhash}{389904ee34ee05b06e5faaedcf29f3e8}
+      \strng{fullhashraw}{389904ee34ee05b06e5faaedcf29f3e8}
+      \strng{bibnamehash}{389904ee34ee05b06e5faaedcf29f3e8}
+      \strng{authorbibnamehash}{389904ee34ee05b06e5faaedcf29f3e8}
+      \strng{authornamehash}{389904ee34ee05b06e5faaedcf29f3e8}
+      \strng{authorfullhash}{389904ee34ee05b06e5faaedcf29f3e8}
+      \strng{authorfullhashraw}{389904ee34ee05b06e5faaedcf29f3e8}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{PaRappa the Rapper}
+      \field{urlday}{18}
+      \field{urlmonth}{1}
+      \field{urlyear}{2025}
+      \field{year}{2025}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb acclaimedvideogames.com/game/parappa-the-rapper/
+      \endverb
+      \verb{url}
+      \verb acclaimedvideogames.com/game/parappa-the-rapper/
+      \endverb
+    \endentry
+    \entry{parappatherapper}{online}{}{}
+      \name{author}{1}{}{%
+        {{hash=c93f7142c25693d40f162bd384c4c11e}{%
+           family={{Sylwia Zimowska}},
+           familyi={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{c93f7142c25693d40f162bd384c4c11e}
+      \strng{fullhash}{c93f7142c25693d40f162bd384c4c11e}
+      \strng{fullhashraw}{c93f7142c25693d40f162bd384c4c11e}
+      \strng{bibnamehash}{c93f7142c25693d40f162bd384c4c11e}
+      \strng{authorbibnamehash}{c93f7142c25693d40f162bd384c4c11e}
+      \strng{authornamehash}{c93f7142c25693d40f162bd384c4c11e}
+      \strng{authorfullhash}{c93f7142c25693d40f162bd384c4c11e}
+      \strng{authorfullhashraw}{c93f7142c25693d40f162bd384c4c11e}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{PaRappa the Rapper Remastered -- recenzja}
+      \field{urlday}{16}
+      \field{urlmonth}{1}
+      \field{urlyear}{2025}
+      \field{year}{2017}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb damagier.pl/gry-wideo/parappa-the-rapper-remastered-recenzja/
+      \endverb
+      \verb{url}
+      \verb damagier.pl/gry-wideo/parappa-the-rapper-remastered-recenzja/
+      \endverb
+    \endentry
+    \entry{beatmaniacontrols}{online}{}{}
+      \name{author}{1}{}{%
+        {{hash=a9a91fda676c98028bbedc1288f2a60f}{%
+           family={{Chardish}},
+           familyi={C\bibinitperiod}}}%
+      }
+      \strng{namehash}{a9a91fda676c98028bbedc1288f2a60f}
+      \strng{fullhash}{a9a91fda676c98028bbedc1288f2a60f}
+      \strng{fullhashraw}{a9a91fda676c98028bbedc1288f2a60f}
+      \strng{bibnamehash}{a9a91fda676c98028bbedc1288f2a60f}
+      \strng{authorbibnamehash}{a9a91fda676c98028bbedc1288f2a60f}
+      \strng{authornamehash}{a9a91fda676c98028bbedc1288f2a60f}
+      \strng{authorfullhash}{a9a91fda676c98028bbedc1288f2a60f}
+      \strng{authorfullhashraw}{a9a91fda676c98028bbedc1288f2a60f}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Beatmania controls}
+      \field{urlday}{16}
+      \field{urlmonth}{1}
+      \field{urlyear}{2025}
+      \field{year}{2005}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb commons.wikimedia.org/wiki/File:Beatmania_controls.jpg
+      \endverb
+      \verb{url}
+      \verb commons.wikimedia.org/wiki/File:Beatmania_controls.jpg
+      \endverb
+    \endentry
+    \entry{musicbasedgames}{thesis}{}{}
+      \name{author}{1}{}{%
+        {{hash=1ee2e0361c039a01dd9173c39b1e4272}{%
+           family={{Fares Kayali}},
+           familyi={F\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {Vienna University of Technology}%
+      }
+      \strng{namehash}{1ee2e0361c039a01dd9173c39b1e4272}
+      \strng{fullhash}{1ee2e0361c039a01dd9173c39b1e4272}
+      \strng{fullhashraw}{1ee2e0361c039a01dd9173c39b1e4272}
+      \strng{bibnamehash}{1ee2e0361c039a01dd9173c39b1e4272}
+      \strng{authorbibnamehash}{1ee2e0361c039a01dd9173c39b1e4272}
+      \strng{authornamehash}{1ee2e0361c039a01dd9173c39b1e4272}
+      \strng{authorfullhash}{1ee2e0361c039a01dd9173c39b1e4272}
+      \strng{authorfullhashraw}{1ee2e0361c039a01dd9173c39b1e4272}
+      \field{extraname}{1}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Playing music : design, theory, and practice of music-based games}
+      \field{type}{mathesis}
+      \field{year}{2008}
+      \field{pages}{47}
+      \range{pages}{1}
+    \endentry
+    \entry{ddrplatform}{online}{}{}
+      \name{author}{1}{}{%
+        {{hash=1e42a2d356dbf30d7afcaccfa62b6c01}{%
+           family={{AeronPrometheus}},
+           familyi={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{1e42a2d356dbf30d7afcaccfa62b6c01}
+      \strng{fullhash}{1e42a2d356dbf30d7afcaccfa62b6c01}
+      \strng{fullhashraw}{1e42a2d356dbf30d7afcaccfa62b6c01}
+      \strng{bibnamehash}{1e42a2d356dbf30d7afcaccfa62b6c01}
+      \strng{authorbibnamehash}{1e42a2d356dbf30d7afcaccfa62b6c01}
+      \strng{authornamehash}{1e42a2d356dbf30d7afcaccfa62b6c01}
+      \strng{authorfullhash}{1e42a2d356dbf30d7afcaccfa62b6c01}
+      \strng{authorfullhashraw}{1e42a2d356dbf30d7afcaccfa62b6c01}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{The left dance platform of a Dance Dance Revolution Extreme arcade machine.}
+      \field{urlday}{16}
+      \field{urlmonth}{1}
+      \field{urlyear}{2025}
+      \field{year}{2008}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb commons.wikimedia.org/wiki/File:Dance_Dance_Revolution_Extreme_arcade_machine_left_side_stage.png
+      \endverb
+      \verb{url}
+      \verb commons.wikimedia.org/wiki/File:Dance_Dance_Revolution_Extreme_arcade_machine_left_side_stage.png
+      \endverb
+    \endentry
+    \entry{ddrgameplay}{online}{}{}
+      \name{author}{1}{}{%
+        {{hash=3c2e1d125bb1d8c3c11805ca22f4a9e9}{%
+           family={{IGDB's authors}},
+           familyi={I\bibinitperiod}}}%
+      }
+      \strng{namehash}{3c2e1d125bb1d8c3c11805ca22f4a9e9}
+      \strng{fullhash}{3c2e1d125bb1d8c3c11805ca22f4a9e9}
+      \strng{fullhashraw}{3c2e1d125bb1d8c3c11805ca22f4a9e9}
+      \strng{bibnamehash}{3c2e1d125bb1d8c3c11805ca22f4a9e9}
+      \strng{authorbibnamehash}{3c2e1d125bb1d8c3c11805ca22f4a9e9}
+      \strng{authornamehash}{3c2e1d125bb1d8c3c11805ca22f4a9e9}
+      \strng{authorfullhash}{3c2e1d125bb1d8c3c11805ca22f4a9e9}
+      \strng{authorfullhashraw}{3c2e1d125bb1d8c3c11805ca22f4a9e9}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Game screenshot of Dance Dance Revolution}
+      \field{urlday}{16}
+      \field{urlmonth}{1}
+      \field{urlyear}{2025}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb igdb.com/games/dance-dance-revolution
+      \endverb
+      \verb{url}
+      \verb igdb.com/games/dance-dance-revolution
+      \endverb
+    \endentry
+    \entry{gh2bundle}{online}{}{}
+      \name{author}{1}{}{%
+        {{hash=154c1602937637b44c4ed93d10ac4427}{%
+           family={{Multitronic}},
+           familyi={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{154c1602937637b44c4ed93d10ac4427}
+      \strng{fullhash}{154c1602937637b44c4ed93d10ac4427}
+      \strng{fullhashraw}{154c1602937637b44c4ed93d10ac4427}
+      \strng{bibnamehash}{154c1602937637b44c4ed93d10ac4427}
+      \strng{authorbibnamehash}{154c1602937637b44c4ed93d10ac4427}
+      \strng{authornamehash}{154c1602937637b44c4ed93d10ac4427}
+      \strng{authorfullhash}{154c1602937637b44c4ed93d10ac4427}
+      \strng{authorfullhashraw}{154c1602937637b44c4ed93d10ac4427}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Guitar Hero Metallica Bundle (PS2)}
+      \field{urlday}{16}
+      \field{urlmonth}{1}
+      \field{urlyear}{2025}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb multitronic.fi/en/products/447968?srsltid=AfmBOoo5Vf2X5Lj5d7st5FZIjyh7ANspdeNywdf5HXkjbwLvRRBXkOaO
+      \endverb
+      \verb{url}
+      \verb multitronic.fi/en/products/447968?srsltid=AfmBOoo5Vf2X5Lj5d7st5FZIjyh7ANspdeNywdf5HXkjbwLvRRBXkOaO
+      \endverb
+    \endentry
+    \entry{ddrsoftpad}{online}{}{}
+      \name{author}{1}{}{%
+        {{hash=12984f71204c2cb39bc845aa440d7ae6}{%
+           family={{videoplaypl}},
+           familyi={v\bibinitperiod}}}%
+      }
+      \strng{namehash}{12984f71204c2cb39bc845aa440d7ae6}
+      \strng{fullhash}{12984f71204c2cb39bc845aa440d7ae6}
+      \strng{fullhashraw}{12984f71204c2cb39bc845aa440d7ae6}
+      \strng{bibnamehash}{12984f71204c2cb39bc845aa440d7ae6}
+      \strng{authorbibnamehash}{12984f71204c2cb39bc845aa440d7ae6}
+      \strng{authornamehash}{12984f71204c2cb39bc845aa440d7ae6}
+      \strng{authorfullhash}{12984f71204c2cb39bc845aa440d7ae6}
+      \strng{authorfullhashraw}{12984f71204c2cb39bc845aa440d7ae6}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{MATA TANECZNA 2in1 TV i PC GRA}
+      \field{urlday}{16}
+      \field{urlmonth}{1}
+      \field{urlyear}{2025}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb arena.pl/oferta/mata-taneczna-2in1-tv-i-pc-gra-38982435
+      \endverb
+      \verb{url}
+      \verb arena.pl/oferta/mata-taneczna-2in1-tv-i-pc-gra-38982435
+      \endverb
+    \endentry
+    \entry{sm5multi}{online}{}{}
+      \name{author}{1}{}{%
+        {{hash=84fca2cda2fce1dd6537b369a8059f96}{%
+           family={{Chris Danford, the StepMania development team, Spinal Shark Collective, et al.}},
+           familyi={C\bibinitperiod}}}%
+      }
+      \strng{namehash}{84fca2cda2fce1dd6537b369a8059f96}
+      \strng{fullhash}{84fca2cda2fce1dd6537b369a8059f96}
+      \strng{fullhashraw}{84fca2cda2fce1dd6537b369a8059f96}
+      \strng{bibnamehash}{84fca2cda2fce1dd6537b369a8059f96}
+      \strng{authorbibnamehash}{84fca2cda2fce1dd6537b369a8059f96}
+      \strng{authornamehash}{84fca2cda2fce1dd6537b369a8059f96}
+      \strng{authorfullhash}{84fca2cda2fce1dd6537b369a8059f96}
+      \strng{authorfullhashraw}{84fca2cda2fce1dd6537b369a8059f96}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Stepmania 5 Preview 4 playing Rave mode.}
+      \field{urlday}{16}
+      \field{urlmonth}{1}
+      \field{urlyear}{2025}
+      \field{year}{2011}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb commons.wikimedia.org/wiki/File:StepMania_5_Rave_Mode.jpg
+      \endverb
+      \verb{url}
+      \verb commons.wikimedia.org/wiki/File:StepMania_5_Rave_Mode.jpg
+      \endverb
+    \endentry
+    \entry{osuleaderboards}{online}{}{}
+      \name{author}{1}{}{%
+        {{hash=5ab8b1aba49959c6c1d4d09a677885b7}{%
+           family={{peppy}},
+           familyi={p\bibinitperiod}}}%
+      }
+      \strng{namehash}{5ab8b1aba49959c6c1d4d09a677885b7}
+      \strng{fullhash}{5ab8b1aba49959c6c1d4d09a677885b7}
+      \strng{fullhashraw}{5ab8b1aba49959c6c1d4d09a677885b7}
+      \strng{bibnamehash}{5ab8b1aba49959c6c1d4d09a677885b7}
+      \strng{authorbibnamehash}{5ab8b1aba49959c6c1d4d09a677885b7}
+      \strng{authornamehash}{5ab8b1aba49959c6c1d4d09a677885b7}
+      \strng{authorfullhash}{5ab8b1aba49959c6c1d4d09a677885b7}
+      \strng{authorfullhashraw}{5ab8b1aba49959c6c1d4d09a677885b7}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{osu! global leaderboards}
+      \field{urlday}{16}
+      \field{urlmonth}{1}
+      \field{urlyear}{2025}
+      \field{year}{2025}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb osu.ppy.sh/rankings/osu/performance
+      \endverb
+      \verb{url}
+      \verb osu.ppy.sh/rankings/osu/performance
+      \endverb
+    \endentry
+    \entry{waccaarcade}{online}{}{}
+      \name{author}{1}{}{%
+        {{hash=85005d1ce006ae9eb7ff31db2d21fbf8}{%
+           family={{Crafty The Fox}},
+           familyi={C\bibinitperiod}}}%
+      }
+      \strng{namehash}{85005d1ce006ae9eb7ff31db2d21fbf8}
+      \strng{fullhash}{85005d1ce006ae9eb7ff31db2d21fbf8}
+      \strng{fullhashraw}{85005d1ce006ae9eb7ff31db2d21fbf8}
+      \strng{bibnamehash}{85005d1ce006ae9eb7ff31db2d21fbf8}
+      \strng{authorbibnamehash}{85005d1ce006ae9eb7ff31db2d21fbf8}
+      \strng{authornamehash}{85005d1ce006ae9eb7ff31db2d21fbf8}
+      \strng{authorfullhash}{85005d1ce006ae9eb7ff31db2d21fbf8}
+      \strng{authorfullhashraw}{85005d1ce006ae9eb7ff31db2d21fbf8}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Wacca}
+      \field{urlday}{16}
+      \field{urlmonth}{1}
+      \field{urlyear}{2025}
+      \field{year}{2022}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb zenius-i-vanisher.com/v5.2/viewpicture.php?pictureid=57107
+      \endverb
+      \verb{url}
+      \verb zenius-i-vanisher.com/v5.2/viewpicture.php?pictureid=57107
+      \endverb
+    \endentry
+    \entry{fayeskayali}{thesis}{}{}
+      \name{author}{1}{}{%
+        {{hash=1ee2e0361c039a01dd9173c39b1e4272}{%
+           family={{Fares Kayali}},
+           familyi={F\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {Vienna University of Technology}%
+      }
+      \strng{namehash}{1ee2e0361c039a01dd9173c39b1e4272}
+      \strng{fullhash}{1ee2e0361c039a01dd9173c39b1e4272}
+      \strng{fullhashraw}{1ee2e0361c039a01dd9173c39b1e4272}
+      \strng{bibnamehash}{1ee2e0361c039a01dd9173c39b1e4272}
+      \strng{authorbibnamehash}{1ee2e0361c039a01dd9173c39b1e4272}
+      \strng{authornamehash}{1ee2e0361c039a01dd9173c39b1e4272}
+      \strng{authorfullhash}{1ee2e0361c039a01dd9173c39b1e4272}
+      \strng{authorfullhashraw}{1ee2e0361c039a01dd9173c39b1e4272}
+      \field{extraname}{2}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Playing music : design, theory, and practice of music-based games}
+      \field{type}{mathesis}
+      \field{year}{2008}
+      \field{pages}{48}
+      \range{pages}{1}
+    \endentry
+    \entry{chen2006flow}{thesis}{}{}
+      \name{author}{1}{}{%
+        {{hash=149727d7f587db70f0357aa137f19ed7}{%
+           family={Chen},
+           familyi={C\bibinitperiod},
+           given={Jenova},
+           giveni={J\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {University of Southern California}%
+      }
+      \strng{namehash}{149727d7f587db70f0357aa137f19ed7}
+      \strng{fullhash}{149727d7f587db70f0357aa137f19ed7}
+      \strng{fullhashraw}{149727d7f587db70f0357aa137f19ed7}
+      \strng{bibnamehash}{149727d7f587db70f0357aa137f19ed7}
+      \strng{authorbibnamehash}{149727d7f587db70f0357aa137f19ed7}
+      \strng{authornamehash}{149727d7f587db70f0357aa137f19ed7}
+      \strng{authorfullhash}{149727d7f587db70f0357aa137f19ed7}
+      \strng{authorfullhashraw}{149727d7f587db70f0357aa137f19ed7}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Accessed: January 18, 2025}
+      \field{title}{Flow in Games}
+      \field{type}{mathesis}
+      \field{year}{2006}
+      \field{pages}{7}
+      \range{pages}{1}
+      \verb{urlraw}
+      \verb http://jenovachen.com/flowingames/Flow_in_games_final.pdf
+      \endverb
+      \verb{url}
+      \verb http://jenovachen.com/flowingames/Flow_in_games_final.pdf
+      \endverb
+    \endentry
+    \entry{beatsaber}{online}{}{}
+      \name{author}{1}{}{%
+        {{hash=a27bcab807f2b75b6955c87266094283}{%
+           family={{PowerPyx}},
+           familyi={P\bibinitperiod}}}%
+      }
+      \strng{namehash}{a27bcab807f2b75b6955c87266094283}
+      \strng{fullhash}{a27bcab807f2b75b6955c87266094283}
+      \strng{fullhashraw}{a27bcab807f2b75b6955c87266094283}
+      \strng{bibnamehash}{a27bcab807f2b75b6955c87266094283}
+      \strng{authorbibnamehash}{a27bcab807f2b75b6955c87266094283}
+      \strng{authornamehash}{a27bcab807f2b75b6955c87266094283}
+      \strng{authorfullhash}{a27bcab807f2b75b6955c87266094283}
+      \strng{authorfullhashraw}{a27bcab807f2b75b6955c87266094283}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Beat Saber PSVR Review –- The Best Thing since Sliced Bread}
+      \field{urlday}{18}
+      \field{urlmonth}{1}
+      \field{urlyear}{2025}
+      \field{year}{2018}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.powerpyx.com/beat-saber-psvr-review-the-best-thing-since-sliced-bread/
+      \endverb
+      \verb{url}
+      \verb https://www.powerpyx.com/beat-saber-psvr-review-the-best-thing-since-sliced-bread/
+      \endverb
+    \endentry
+    \entry{flowbeatsaber}{thesis}{}{}
+      \name{author}{1}{}{%
+        {{hash=1ee2e0361c039a01dd9173c39b1e4272}{%
+           family={{Fares Kayali}},
+           familyi={F\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {Vienna University of Technology}%
+      }
+      \strng{namehash}{1ee2e0361c039a01dd9173c39b1e4272}
+      \strng{fullhash}{1ee2e0361c039a01dd9173c39b1e4272}
+      \strng{fullhashraw}{1ee2e0361c039a01dd9173c39b1e4272}
+      \strng{bibnamehash}{1ee2e0361c039a01dd9173c39b1e4272}
+      \strng{authorbibnamehash}{1ee2e0361c039a01dd9173c39b1e4272}
+      \strng{authornamehash}{1ee2e0361c039a01dd9173c39b1e4272}
+      \strng{authorfullhash}{1ee2e0361c039a01dd9173c39b1e4272}
+      \strng{authorfullhashraw}{1ee2e0361c039a01dd9173c39b1e4272}
+      \field{extraname}{3}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Playing music : design, theory, and practice of music-based games}
+      \field{type}{mathesis}
+      \field{year}{2008}
+      \field{pages}{112}
+      \range{pages}{1}
+    \endentry
+    \entry{sdvxcontroller}{online}{}{}
+      \name{author}{1}{}{%
+        {{hash=e7baa1e494c58d0c4895f20e7e582a22}{%
+           family={{Sanjo}},
+           familyi={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{e7baa1e494c58d0c4895f20e7e582a22}
+      \strng{fullhash}{e7baa1e494c58d0c4895f20e7e582a22}
+      \strng{fullhashraw}{e7baa1e494c58d0c4895f20e7e582a22}
+      \strng{bibnamehash}{e7baa1e494c58d0c4895f20e7e582a22}
+      \strng{authorbibnamehash}{e7baa1e494c58d0c4895f20e7e582a22}
+      \strng{authornamehash}{e7baa1e494c58d0c4895f20e7e582a22}
+      \strng{authorfullhash}{e7baa1e494c58d0c4895f20e7e582a22}
+      \strng{authorfullhashraw}{e7baa1e494c58d0c4895f20e7e582a22}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Control panel -- Sound Voltex, Wikipedia}
+      \field{urlday}{18}
+      \field{urlmonth}{1}
+      \field{urlyear}{2025}
+      \field{year}{2012}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://en.wikipedia.org/wiki/Sound_Voltex#/media/File:SOUND_VOLTEX_Controls.JPG
+      \endverb
+      \verb{url}
+      \verb https://en.wikipedia.org/wiki/Sound_Voltex#/media/File:SOUND_VOLTEX_Controls.JPG
+      \endverb
+    \endentry
+    \entry{sdvx}{online}{}{}
+      \name{author}{1}{}{%
+        {{hash=afdbedeb5d374ab043ca548089f60af2}{%
+           family={{G/O Media}},
+           familyi={G\bibinitperiod}}}%
+      }
+      \strng{namehash}{afdbedeb5d374ab043ca548089f60af2}
+      \strng{fullhash}{afdbedeb5d374ab043ca548089f60af2}
+      \strng{fullhashraw}{afdbedeb5d374ab043ca548089f60af2}
+      \strng{bibnamehash}{afdbedeb5d374ab043ca548089f60af2}
+      \strng{authorbibnamehash}{afdbedeb5d374ab043ca548089f60af2}
+      \strng{authornamehash}{afdbedeb5d374ab043ca548089f60af2}
+      \strng{authorfullhash}{afdbedeb5d374ab043ca548089f60af2}
+      \strng{authorfullhashraw}{afdbedeb5d374ab043ca548089f60af2}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Sound Voltex: Exceed Gear Screenshots and Videos - Kotaku}
+      \field{urlday}{18}
+      \field{urlmonth}{1}
+      \field{urlyear}{2025}
+      \field{year}{2021}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://kotaku.com/games/sound-voltex-exceed-gear/gallery/slides/2
+      \endverb
+      \verb{url}
+      \verb https://kotaku.com/games/sound-voltex-exceed-gear/gallery/slides/2
+      \endverb
+    \endentry
+    \entry{csikszentmihalyi1990flow}{book}{}{}
+      \name{author}{1}{}{%
+        {{hash=4102f9749c0a86a4a970e9b54bfb1b29}{%
+           family={Csikszentmihalyi},
+           familyi={C\bibinitperiod},
+           given={Mihaly},
+           giveni={M\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Ebury Publishing}%
+      }
+      \strng{namehash}{4102f9749c0a86a4a970e9b54bfb1b29}
+      \strng{fullhash}{4102f9749c0a86a4a970e9b54bfb1b29}
+      \strng{fullhashraw}{4102f9749c0a86a4a970e9b54bfb1b29}
+      \strng{bibnamehash}{4102f9749c0a86a4a970e9b54bfb1b29}
+      \strng{authorbibnamehash}{4102f9749c0a86a4a970e9b54bfb1b29}
+      \strng{authornamehash}{4102f9749c0a86a4a970e9b54bfb1b29}
+      \strng{authorfullhash}{4102f9749c0a86a4a970e9b54bfb1b29}
+      \strng{authorfullhashraw}{4102f9749c0a86a4a970e9b54bfb1b29}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{isbn}{9781448177707}
+      \field{title}{Flow: The classic work on how to achieve happiness}
+      \field{year}{1990}
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+

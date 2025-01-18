@@ -1,0 +1,230 @@
+% !TeX encoding = UTF-8
+\documentclass[12pt,a4paper]{report}
+
+% Ustawienia języka i kodowania
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[polish,english]{babel}
+\usepackage{csquotes}
+\usepackage{titlesec}
+
+% Ustawienia strony zgodne z wymaganiami
+\usepackage[
+    a4paper,
+    top=2.5cm,
+    bottom=2.5cm,
+    left=3.5cm,
+    right=2cm,
+    includehead
+]{geometry}
+
+% Ustawienia akapitu i tekstu
+\usepackage{setspace}
+\onehalfspacing
+\usepackage{indentfirst}
+\usepackage{ragged2e}
+\justifying
+
+% Numeracja stron i nagłówki
+\usepackage{fancyhdr}
+\fancypagestyle{plain}{%
+    \fancyhf{}% Clear header/footer
+    \fancyfoot[R]{\thepage}% Page number in bottom right
+    \renewcommand{\headrulewidth}{0pt}% No header rule
+}
+\pagestyle{plain}
+
+% Bibliografia
+\usepackage[
+    backend=biber,
+    style=numeric,
+    sorting=none,
+    maxbibnames=99,
+    maxcitenames=2,
+    giveninits=false
+]{biblatex}
+\addbibresource{bibliografia.bib}
+
+% Grafika i podpisy
+\usepackage{graphicx}
+\usepackage{caption}
+\usepackage{subcaption}
+\usepackage{enumitem}
+
+% Spisy
+\usepackage[titles]{tocloft}
+\renewcommand{\cftdot}{}
+\renewcommand{\cftsecleader}{\cftdotfill{\cftdotsep}}
+
+% Listingi kodu
+\usepackage{listings}
+\usepackage{xcolor}
+\lstset{
+    basicstyle=\ttfamily\small,
+    numbers=left,
+    numberstyle=\tiny,
+    numbersep=5pt,
+    breaklines=true,
+    frame=single,
+    backgroundcolor=\color{white},
+    keywordstyle=\color{blue},
+    commentstyle=\color{green!60!black},
+    stringstyle=\color{red},
+    showstringspaces=false,
+    inputencoding=utf8,
+    extendedchars=true,
+    literate={ą}{{\k{a}}}1
+            {ć}{{\'c}}1
+            {ę}{{\k{e}}}1
+            {ł}{{\l{}}}1
+            {ń}{{\'n}}1
+            {ó}{{\'o}}1
+            {ś}{{\'s}}1
+            {ź}{{\'z}}1
+            {ż}{{\.z}}1
+            {Ą}{{\k{A}}}1
+            {Ć}{{\'C}}1
+            {Ę}{{\k{E}}}1
+            {Ł}{{\L{}}}1
+            {Ń}{{\'N}}1
+            {Ó}{{\'O}}1
+            {Ś}{{\'S}}1
+            {Ź}{{\'Z}}1
+            {Ż}{{\.Z}}1
+}
+
+% Matematyka
+\usepackage{amsmath}
+\usepackage{amsthm}
+\usepackage{amssymb}
+
+% Hiperłącza
+\usepackage[hidelinks]{hyperref}
+\urlstyle{same}
+
+\makeatletter
+% Strona tytułowa
+\renewcommand{\maketitle}{
+    \begin{titlepage}
+    \pagestyle{empty}
+    \begin{center}
+        \Large
+        UNIWERSYTET KAZIMIERZA WIELKIEGO\\
+        KOLEGIUM IV\\[0.5cm]
+        INSTYTUT KOMUNIKACJI SPOŁECZNEJ I MEDIÓW\\[2cm]
+        
+        \large
+        Julia Stocka\\[0.5cm]
+        
+        98057\\[2cm]
+        
+        \textbf{Mechaniki w wybranych grach rytmicznych oraz ich wpływ \\ na immersję i flow}\\[4cm]
+        
+        \normalsize
+        \raggedleft
+         Praca licencjacka napisana pod kierunkiem\\
+        doktora Miłosza Markockiego\\[4cm]
+        \centering
+        BYDGOSZCZ 2025\\[1cm]
+    \end{center}
+    \end{titlepage}
+
+    % Druga strona tytułowa po angielsku
+    \begin{titlepage}
+    \pagestyle{empty}
+    \begin{center}
+        \Large
+        UNIWERSYTET KAZIMIERZA WIELKIEGO\\
+        KOLEGIUM IV\\[0.5cm]
+        INSTYTUT KOMUNIKACJI SPOŁECZNEJ I MEDIÓW\\[2cm]
+        
+        \large
+        Julia Stocka\\[0.5cm]
+        
+        98057\\[2cm]
+        
+        \textbf{Mechanics in Selected Rhythm Games and Their Impact \\ on Immersion and Flow}\\[4cm]
+        
+        \normalsize
+        \raggedleft
+        Bachelor's thesis written under the supervision of\\
+        Doctor Miłosz Markocki\\[4cm]
+        \centering
+        BYDGOSZCZ 2025\\[1cm]
+    \end{center}
+    \end{titlepage}
+}
+\makeatother
+
+\begin{document}
+\pagenumbering{gobble} % No page numbers initially
+\maketitle
+
+% Strona z oświadczeniem
+\input{oswiadczenie}
+
+% Streszczenie
+\chapter*{Streszczenie}
+\addcontentsline{toc}{chapter}{Streszczenie}
+\input{streszczenie}
+
+% Start numbering from chapter 1 with actual PDF page number
+\cleardoublepage
+\pagenumbering{arabic}
+\setcounter{page}{5}  % Adjust this number to match your PDF
+
+% Spis treści
+\tableofcontents
+
+\let\originalchapter\chapter
+
+% Create a custom command for the first chapter
+\newcommand{\firstchapter}[1]{%
+  \titleformat{\chapter}
+    {\normalfont\huge\bfseries}
+    {}
+    {0pt}
+    {\huge}
+  \chapter{#1}
+  % Restore original chapter format with title on new line
+  \titleformat{\chapter}[display]  % Using display style for separate lines
+    {\normalfont\huge\bfseries}
+    {\chaptertitlename\ \thechapter}
+    {20pt}
+    {\huge}
+}
+
+% Rozdziały pracy
+\firstchapter{Introduction}
+\label{chap:wstep}
+\input{rozdzialy/introduction}
+
+\chapter{Beginning of the genre}
+\label{chap:rozdzial1}
+\input{rozdzialy/chapter2}
+
+\chapter{Immersion in Rhythm Games}
+\label{chap:rozdzial2}
+\input{rozdzialy/chapter3}
+
+\chapter{Podsumowanie}
+\label{chap:podsumowanie}
+\input{rozdzialy/summary}
+
+% Bibliografia
+
+\printbibliography[heading=bibintoc,title=Bibliography]
+
+% Spis rysunków
+\listoffigures
+\addcontentsline{toc}{chapter}{List of Figures}
+
+% Spis tabel
+%\listoftables
+%\addcontentsline{toc}{chapter}{Spis tabel}
+
+% Spis listingów
+%\lstlistoflistings
+%\addcontentsline{toc}{chapter}{Spis listingów}
+
+\end{document}
