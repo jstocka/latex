@@ -38,7 +38,7 @@
 \usepackage[
     backend=biber,
     style=numeric,
-    sorting=none,
+    sorting=nyt,
     maxbibnames=99,
     maxcitenames=2,
     giveninits=false
@@ -102,6 +102,27 @@
 \usepackage[hidelinks]{hyperref}
 \urlstyle{same}
 
+% Redefiniowanie środowiska quote
+% Redefiniowanie środowiska quote
+\let\oldquote\quote
+\let\endoldquote\endquote
+
+% Redefiniowanie środowiska quote
+\let\oldquote\quote
+\let\endoldquote\endquote
+
+\renewenvironment{quote}
+{
+    \oldquote
+    \small % zmiana rozmiaru czcionki na 10pt
+    \setlength{\leftmargin}{1.25cm} % wcięcie z lewej
+    \setlength{\rightmargin}{1.25cm} % wcięcie z prawej
+    \setstretch{1} % interlinia 1.0
+}
+{
+    \endoldquote
+}
+
 \makeatletter
 % Strona tytułowa
 \renewcommand{\maketitle}{
@@ -163,6 +184,8 @@
 % Strona z oświadczeniem
 \input{oswiadczenie}
 
+
+
 % Streszczenie
 \chapter*{Streszczenie}
 \addcontentsline{toc}{chapter}{Streszczenie}
@@ -176,29 +199,60 @@
 % Spis treści
 \tableofcontents
 
-\let\originalchapter\chapter
+% Definiowanie odstępu po nagłówku (2 linijki)
+\newlength{\chapterspace}
+\setlength{\chapterspace}{2\baselineskip}
 
-% Create a custom command for the first chapter
+% Komenda dla pierwszego rozdziału (bez numeracji)
 \newcommand{\firstchapter}[1]{%
-  \titleformat{\chapter}
-    {\normalfont\huge\bfseries}
+  \titleformat{\chapter}[display]
+    {\normalfont\fontsize{14}{16.8}\bfseries\centering} % 14pt, pogrubione, wyśrodkowane
     {}
     {0pt}
-    {\huge}
+    {\normalfont\fontsize{14}{16.8}\bfseries\centering}
   \chapter{#1}
-  % Restore original chapter format with title on new line
-  \titleformat{\chapter}[display]  % Using display style for separate lines
-    {\normalfont\huge\bfseries}
-    {\chaptertitlename\ \thechapter}
-    {20pt}
-    {\huge}
+  \vspace{\chapterspace}
+  % Przywracanie oryginalnego formatu dla kolejnych rozdziałów
+  \titleformat{\chapter}[display]
+    {\normalfont\fontsize{14}{16.8}\bfseries\centering} % 14pt, pogrubione, wyśrodkowane
+    {\chaptertitlename~\thechapter} % "Chapter X" w jednej linii
+    {0.1em} % odstęp między "Chapter X" a tytułem
+    {\normalfont\fontsize{14}{16.8}\bfseries\centering}
 }
+
+% Formatowanie pozostałych rozdziałów
+\titleformat{\chapter}[display]
+  {\normalfont\fontsize{14}{16.8}\bfseries\centering} % 14pt, pogrubione, wyśrodkowane
+  {\chaptertitlename~\thechapter} % "Chapter X" w jednej linii
+  {1em} % odstęp między "Chapter X" a tytułem
+  {\normalfont\fontsize{14}{16.8}\bfseries\centering}
+
+\titlespacing*{\chapter}
+  {0pt} % lewe wcięcie
+  {0pt} % odstęp przed
+  {\chapterspace} % odstęp po (2 linijki)
+
+% Dodatkowe style dla pozostałych elementów
+\titleformat{\section}
+  {\normalfont\fontsize{14}{16.8}\bfseries\centering}
+  {\thesection}
+  {1em}
+  {\normalfont\fontsize{14}{16.8}\bfseries\centering}
+
+\titlespacing*{\section}
+  {0pt}     % lewe wcięcie
+  {0pt}     % pół linii przed (zmniejszone z 12pt)
+  {12pt}    % jedna linia po
 
 % Rozdziały pracy
 \firstchapter{Introduction}
 \label{chap:wstep}
 \input{rozdzialy/introduction}
-
+%brak obrazków i pagebreaks
+% \renewcommand{\includegraphics}[2][]{\fbox{}}
+% \renewcommand{\newpage}{}
+% \renewcommand{\clearpage}{}
+% \renewcommand{\cleardoublepage}{}
 \chapter{Beginning of the genre}
 \label{chap:rozdzial1}
 \input{rozdzialy/chapter2}
@@ -213,7 +267,7 @@
 
 % Bibliografia
 
-\printbibliography[heading=bibintoc,title=Bibliography]
+\printbibliography[title=Bibliography]
 
 % Spis rysunków
 \listoffigures
