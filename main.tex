@@ -21,7 +21,7 @@
 }
 \pagestyle{plain}
 
-\usepackage[backend=biber,style=numeric,sorting=nyt,maxbibnames=99,maxcitenames=2,giveninits=false,doi=false]{biblatex}
+\usepackage[backend=bibtex,style=numeric,sorting=nyt,maxbibnames=99,maxcitenames=2,giveninits=false,doi=false]{biblatex}
 \addbibresource{bibliografia.bib}
 
 \usepackage{graphicx}
@@ -46,7 +46,8 @@
    {}
    {0pt}
    {\normalfont\fontsize{14}{16.8}\bfseries\centering}
-   \chapter{#1}
+   \chapter*{#1}
+   \addcontentsline{toc}{chapter}{#1}
  \titleformat{\chapter}[display]
    {\normalfont\fontsize{14}{16.8}\bfseries\centering}
    {\chaptertitlename~\thechapter}
@@ -204,9 +205,17 @@
 \label{chap:rozdzial1}
 \input{rozdzialy/chapter2}
 
-\chapter{Immersion in Rhythm Games}
+\chapter{Immersion in rhythm games}
 \label{chap:rozdzial2}
 \input{rozdzialy/chapter3}
+
+\chapter{The importance of flow in rhythm games}
+\label{chap:rozdzial3}
+\input{rozdzialy/chapter4}
+
+\chapter{Player's engagement - social and cultural aspects}
+\label{chap:rozdzial4}
+\input{rozdzialy/chapter5}
 
 \chapter{Summary}
 \label{chap:podsumowanie}
