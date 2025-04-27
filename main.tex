@@ -6,7 +6,7 @@
 \usepackage[polish,english]{babel}
 \usepackage{csquotes}
 \usepackage{titlesec}
-\usepackage[a4paper,top=2.5cm,bottom=2.5cm,left=3.5cm,right=2cm,includehead]{geometry}
+\usepackage[a4paper,top=2.5cm,bottom=2.5cm,left=2.5cm,right=2.5cm,includehead]{geometry}
 \usepackage{setspace}
 \onehalfspacing
 \usepackage{indentfirst}
@@ -36,6 +36,7 @@
 \usepackage[titles]{tocloft}
 \renewcommand{\cftdot}{}
 \renewcommand{\cftsecleader}{\cftdotfill{\cftdotsep}}
+\renewcommand{\cftsecaftersnum}{.}%
 
 \newlength{\chapterspace}
 \setlength{\chapterspace}{2\baselineskip}
@@ -201,23 +202,15 @@
 \label{chap:wstep}
 \input{rozdzialy/introduction}
 
-\chapter{Beginning of the Genre}
+\chapter{Rhythm Games}
 \label{chap:rozdzial1}
 \input{rozdzialy/chapter2}
 
-\chapter{Immersion in rhythm games}
+\chapter{Player's engagement - social and cultural aspects of rhythm games}
 \label{chap:rozdzial2}
 \input{rozdzialy/chapter3}
 
-\chapter{The importance of flow in rhythm games}
-\label{chap:rozdzial3}
-\input{rozdzialy/chapter4}
-
-\chapter{Player's engagement - social and cultural aspects}
-\label{chap:rozdzial4}
-\input{rozdzialy/chapter5}
-
-\chapter{Summary}
+\firstchapter{Summary}
 \label{chap:podsumowanie}
 \input{rozdzialy/summary}
 
