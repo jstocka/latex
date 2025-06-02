@@ -6,33 +6,108 @@
 \usepackage[polish,english]{babel}
 \usepackage{csquotes}
 \usepackage{titlesec}
-\usepackage[a4paper,top=2.5cm,bottom=2.5cm,left=2.5cm,right=2.5cm,includehead]{geometry}
+\usepackage[
+    left=25mm, 
+    right=25mm, 
+    top=25mm, 
+    bottom=25mm,
+    bindingoffset=0cm
+]{geometry}
 \usepackage{setspace}
 \onehalfspacing
 \usepackage{indentfirst}
 \usepackage{ragged2e}
 \justifying
-
 \usepackage{fancyhdr}
 \fancypagestyle{plain}{%
    \fancyhf{}
-   \fancyfoot[R]{\thepage}
+   \fancyfoot[C]{\thepage}
    \renewcommand{\headrulewidth}{0pt}
 }
 \pagestyle{plain}
 
-\usepackage[backend=bibtex,style=numeric,sorting=nyt,maxbibnames=99,maxcitenames=2,giveninits=false,doi=false]{biblatex}
+\usepackage[style=numeric,sorting=nyt,maxbibnames=99,maxcitenames=2,giveninits=false,doi=false]{biblatex}
 \addbibresource{bibliografia.bib}
+\DeclareFieldFormat{urldate}{[DOA: #1]}
+
+% Ukryj domyślne drukowanie daty (poza tytułem)
+\renewbibmacro*{date}{}
+% Makro tytułu + roku po tytule
+\newbibmacro*{title+year}{%
+  \printfield[title]{title}%
+  \iffieldundef{year}
+    {}
+    {\addspace\printtext[parens]{\printdate}}%
+  \newunit}
+
+% Sterownik dla książek
+\DeclareBibliographyDriver{book}{%
+  \usebibmacro{bibindex}%
+  \usebibmacro{begentry}%
+  \usebibmacro{author/editor+others}%
+  \newunit\newblock
+  \usebibmacro{title+year}%
+  \newunit\newblock
+  \printlist{publisher}%
+  \newunit\newblock
+  \usebibmacro{finentry}}
+
+% Sterownik dla prac magisterskich
+\DeclareBibliographyDriver{mastersthesis}{%
+  \usebibmacro{bibindex}%
+  \usebibmacro{begentry}%
+  \usebibmacro{author/editor+others}%
+  \newunit\newblock
+  \usebibmacro{title+year}%
+  \newunit\newblock
+  \printfield{type}%
+  \newunit\newblock
+  \printlist{institution}%
+  \newunit\newblock
+  \usebibmacro{finentry}}
+
+% Sterownik dla źródeł online
+\DeclareBibliographyDriver{online}{%
+  \usebibmacro{bibindex}%
+  \usebibmacro{begentry}%
+  \usebibmacro{author/editor+others}%
+  \newunit\newblock
+  \usebibmacro{title+year}%
+  \newunit\newblock
+  \printfield{organization}%
+  \newunit\newblock
+  \printfield{url}%
+  \newunit\newblock
+  \usebibmacro{urldate}%  % tutaj ważna zmiana
+  \newunit\newblock
+  \usebibmacro{finentry}}
+
+% Sterownik dla misc
+\DeclareBibliographyDriver{misc}{%
+  \usebibmacro{bibindex}%
+  \usebibmacro{begentry}%
+  \usebibmacro{author/editor+others}%
+  \newunit\newblock
+  \usebibmacro{title+year}%
+  \newunit\newblock
+  \printfield{howpublished}%
+  \newunit\newblock
+  \usebibmacro{finentry}}
 
 \usepackage{graphicx}
 \usepackage{caption}
+\DeclareCaptionFont{tenpt}{\fontsize{10pt}{12pt}\selectfont}
+\captionsetup{
+  font=tenpt,
+  labelfont=bf,
+  justification=centering,
+}
+
 \usepackage{subcaption}
 \usepackage{enumitem}[shortlabels]
 \setlist[itemize]{nosep}
 \setlist{noitemsep}
 \renewcommand{\labelitemi}{$\bullet$}
-
-
 \usepackage[titles]{tocloft}
 \renewcommand{\cftdot}{}
 \renewcommand{\cftsecleader}{\cftdotfill{\cftdotsep}}
@@ -41,30 +116,15 @@
 \newlength{\chapterspace}
 \setlength{\chapterspace}{2\baselineskip}
 
-\newcommand{\firstchapter}[1]{%
  \titleformat{\chapter}[display]
    {\normalfont\fontsize{14}{16.8}\bfseries\centering}
-   {}
+   {\vspace*{-20pt}\chaptertitlename~\thechapter}
    {0pt}
    {\normalfont\fontsize{14}{16.8}\bfseries\centering}
-   \chapter*{#1}
-   \addcontentsline{toc}{chapter}{#1}
- \titleformat{\chapter}[display]
-   {\normalfont\fontsize{14}{16.8}\bfseries\centering}
-   {\chaptertitlename~\thechapter}
-   {0pt}
-   {\normalfont\fontsize{14}{16.8}\bfseries\centering}
-}
-
-\titleformat{\chapter}[display]
- {\normalfont\fontsize{14}{16.8}\bfseries\centering}
- {\chaptertitlename~\thechapter}
- {0pt}
- {\normalfont\fontsize{14}{16.8}\bfseries\centering}
 
 \titleformat{name=\chapter,numberless}[display]
  {\normalfont\fontsize{14}{16.8}\bfseries\centering}
- {}
+ {\vspace*{-40pt}}
  {0pt}
  {\normalfont\fontsize{14}{16.8}\bfseries\centering}
 
@@ -77,6 +137,11 @@
  {0pt}
  {0pt}
  {\chapterspace}
+
+ \newcommand{\firstchapter}[1]{%
+  \chapter*{#1}
+  \addcontentsline{toc}{chapter}{#1}
+}
 
 \titleformat{\section}
 {\normalfont\fontsize{12}{14.4}\bfseries}
@@ -177,7 +242,6 @@
 }
 
 \makeatother
-
 
 \usepackage[hidelinks]{hyperref}
 \urlstyle{same}
