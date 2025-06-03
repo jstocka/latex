@@ -28,7 +28,9 @@
 
 \usepackage[style=numeric,sorting=nyt,maxbibnames=99,maxcitenames=2,giveninits=false,doi=false]{biblatex}
 \addbibresource{bibliografia.bib}
-\DeclareFieldFormat{urldate}{[DOA: #1]}
+%\DeclareFieldFormat{urldate}{[DOA: #1]}
+\DeclareFieldFormat{urldate}{\space\linebreak[1][DOA: #1]}
+\usepackage{url}
 
 % Ukryj domyślne drukowanie daty (poza tytułem)
 \renewbibmacro*{date}{}
