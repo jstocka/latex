@@ -26,9 +26,8 @@
 }
 \pagestyle{plain}
 
-\usepackage[style=numeric,sorting=nyt,maxbibnames=99,maxcitenames=2,giveninits=false,doi=false]{biblatex}
+\usepackage[style=numeric,sorting=nyt,maxbibnames=99,maxcitenames=2,giveninits=false,doi=false,defernumbers=true]{biblatex}
 \addbibresource{bibliografia.bib}
-%\DeclareFieldFormat{urldate}{[DOA: #1]}
 \DeclareFieldFormat{urldate}{\space\linebreak[1][DOA: #1]}
 \usepackage{url}
 
@@ -258,9 +257,12 @@
 \addcontentsline{toc}{chapter}{Summary}
 \input{summary.tex}
 
+\chapter*{Streszczenie}
+\input{summarypl.tex}
+
 \cleardoublepage
 \pagenumbering{arabic}
-\setcounter{page}{5}
+\setcounter{page}{6}
 
 \tableofcontents
 
@@ -280,8 +282,13 @@
 \label{chap:podsumowanie}
 \input{rozdzialy/summary}
 
-\printbibliography[title=Bibliography]
+\printbibliography[title={Bibliography}]
 \addcontentsline{toc}{chapter}{Bibliography}
+
+\chapter*{Ludography}
+\input{ludography.tex}
+
+\addcontentsline{toc}{chapter}{Ludography}
 
 \listoffigures
 \addcontentsline{toc}{chapter}{List of Figures}
